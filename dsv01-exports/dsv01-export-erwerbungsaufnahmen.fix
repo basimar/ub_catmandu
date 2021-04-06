@@ -1,0 +1,1 @@
+reject marc_match('LDR/17','(5|8)')

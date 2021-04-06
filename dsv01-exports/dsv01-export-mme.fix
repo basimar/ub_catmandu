@@ -1,0 +1,3 @@
+select marc_any_match("CAT", "MME")
+select marc_any_match("100", ".")
+select marc_any_match("700t", ".")

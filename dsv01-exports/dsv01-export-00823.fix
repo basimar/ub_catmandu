@@ -1,0 +1,13 @@
+reject marc_match('LDR/06','(e|f|g|o|r|k)')
+select marc_match('008/23','(a|b|c|d|f|o|q|r|s)')
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("007","f007.$append", join:"; ")
+join_field("f007","##");
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");
+marc_map("008/23","f00823.$append", join:"; ")
+join_field("f00823","##");  
+marc_map("245abcdijnp","f245.$append", join:"; ")
+join_field("f245","##");
+remove_field(record)

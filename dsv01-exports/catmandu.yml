@@ -1,0 +1,12 @@
+importer:
+  dsv01_seq:
+     package: MARC
+     options:
+        type: ALEPHSEQ
+        fix: seq2m21.fix
+exporter:
+  a125_ld:
+     package: MARC
+     options:
+        type: XML
+        fix: dsv01-export-a125-ld.fix

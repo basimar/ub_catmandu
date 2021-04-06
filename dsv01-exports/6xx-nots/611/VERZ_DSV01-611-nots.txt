@@ -1,0 +1,21 @@
+001012433 61127 L $$aKonferenz von Locarno$$d1925$$cLocarno$$1(DE-588)3036839-X$$2gnd
+001539304 61127 L $$aKonferenz von Locarno$$d1925$$cLocarno$$1(DE-588)3036839-X$$2gnd
+004083552 61127 L $$aKonferenz von Locarno$$d1925$$cLocarno$$1(DE-588)3036839-X$$2gnd
+005716163 61127 L $$aJesup North Pacific Expedition$$1(DE-588)5047999-4$$2gnd
+006246179 61127 L $$aJugendmusikfest$$d1984-2003$$cDeutschlandsberg$$1(DE-588)1069598631$$2gnd
+006460219 61127 L $$aInternational Conference on the Peaceful Uses of Atomic Energy$$n1$$d1955$$cGenf$$1(DE-588)5271592-9$$2gnd
+006469064 61127 L $$aArnhem Mode Biennale$$n4.$$d2011$$cArnhem$$1(DE-588)1088791158$$2gnd
+006666546 61127 L $$aKonferenz von Locarno$$d1925$$cLocarno$$1(DE-588)3036839-X$$2gnd
+006698158 61127 L $$aKwangju Biennale$$cKwangju$$1(DE-588)5308288-6$$d1997$$n2$$2gnd
+006716106 61127 L $$aKochi-Muziris Biennale$$n3.$$d2016-2017$$cCochin, Kerala$$1(DE-588)1141796473$$2gnd
+006722836 61127 L $$aMomenta$$d2017$$cMontréal$$1(DE-588)1140449842$$2gnd
+006759749 61127 L $$aInternational Congress of Philosophy$$n12$$d1958$$cPadua; Venedig$$1(DE-588)5049462-4$$2gnd
+006774230 61127 L $$aNew Museum$$gNew York, N.Y.$$eTriennal$$1(DE-588)109246297X$$2gnd
+006849619 61127 L $$aJesus Seminar$$1(DE-588)109167583X$$2gnd
+007066013 61127 L $$aSonsbeek (Ausstellung)$$1(DE-588)1092285849$$2gnd
+007084093 61127 L $$aSonsbeek (Ausstellung)$$1(DE-588)1092285849$$2gnd
+007096952 61127 L $$aArt Basel$$n50.$$d2019$$cBasel$$1(DE-588)118983880X$$2gnd
+007106189 61127 L $$aArt Basel$$n50.$$d2019$$cBasel$$1(DE-588)118983880X$$2gnd
+007106386 61127 L $$aExperimenta$$cFrankfurt, Main$$1(DE-588)2009988-5$$d1971$$n4$$2gnd
+007174061 61127 L $$aSanhédrin$$d1807$$cParis$$1(DE-588)1215373-4$$2gnd
+007175229 61127 L $$aArt Basel$$n50.$$d2019$$cBasel$$1(DE-588)118983880X$$2gnd

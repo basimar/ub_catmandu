@@ -1,0 +1,28 @@
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("LDR/06","leader06")
+marc_map("LDR/07","leader07")
+marc_map("LDR/17","leader17")
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");
+marc_map("040","f040.$append", join:"; ")
+join_field("f040","##");
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");
+marc_map("772","f772.$append", join:"; ")
+join_field("f772","##");
+marc_map("773","f773.$append", join:"; ")
+join_field("f773","##");
+marc_map("775","f775.$append", join:"; ")
+join_field("f775","##");
+marc_map("776","f776.$append", join:"; ")
+join_field("f776","##");
+marc_map("785","f785.$append", join:"; ")
+join_field("f785","##");
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");
+remove_field(record)

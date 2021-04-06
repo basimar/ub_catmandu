@@ -1,0 +1,7 @@
+marc_map('LDR/7','ldr')
+marc_map('FMT','fmt')
+marc_map('DEL','fDEL')
+if exists('fDEL') 
+   reject()
+end
+remove_field(record)

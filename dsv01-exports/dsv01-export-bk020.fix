@@ -1,0 +1,22 @@
+select marc_any_match("FMT", "BK")
+select marc_any_match("020", ".")
+select marc_any_match("022", ".")
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");
+marc_map("020","f020.$append", join:"; ")
+join_field("f020","##");
+marc_map("022","f022.$append", join:"; ")
+join_field("f022","##");
+marc_map("040","f040.$append", join:"; ")
+join_field("f040","##");
+marc_map("245a","f245a.$append", join:"; ")
+join_field("f245a","##");
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");
+remove_field(record)

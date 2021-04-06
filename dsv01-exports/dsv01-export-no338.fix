@@ -1,0 +1,27 @@
+marc_map("336","f336.$append", join:" ")
+join_field("f336","##");
+marc_map("337","f337.$append", join:" ")
+join_field("f337","##");
+marc_map("338","f338.$append", join:" ")
+join_field("f338","##");
+
+if exists('f338') 
+   reject()
+end
+
+marc_map('LDR','fLDR')
+marc_map("006","f006.$append", join:" ")
+join_field("f006","##");
+marc_map("007","f007.$append", join:" ")
+join_field("f007","##");
+marc_map("008","f008.$append", join:" ")
+join_field("f008","##");
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("300","f300.$append", join:" ")
+join_field("f300","##");
+marc_map("906","f906.$append", join:" ")
+join_field("f906","##");
+marc_map("907","f907.$append", join:" ")
+join_field("f907","##");
+remove_field(record)

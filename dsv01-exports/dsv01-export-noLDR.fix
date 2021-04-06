@@ -1,0 +1,6 @@
+marc_map('LDR','fLDR')
+if exists('fLDR') 
+   reject()
+end
+marc_map('245','f245')
+remove_field(record)

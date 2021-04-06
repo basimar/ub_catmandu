@@ -1,0 +1,30 @@
+select marc_any_match('500','.*')
+do marc_each()
+  if marc_match("949b","(A145|B405)")
+    reject()
+  end
+end
+marc_map("LDR","fLDR.$append", join:"; ")
+join_field("fLDR","##");  
+marc_map('LDR/06','fLDR06')
+marc_map('LDR/07','fLDR07')
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");  
+marc_map('008/07-10','year')
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");  
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");  
+marc_map("500","f500.$append", join:"; ")
+join_field("f500","##");  
+marc_map("561","f561.$append", join:"; ")
+join_field("f561","##");  
+marc_map("563","f563.$append", join:"; ")
+join_field("f563","##");  
+marc_map("590","f590.$append", join:"; ")
+join_field("f590","##");  
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");  
+marc_map("949b","f949.$append", join:"; ")
+join_field("f949","##");  
+remove_field(record)

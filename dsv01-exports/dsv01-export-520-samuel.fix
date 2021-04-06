@@ -1,0 +1,2 @@
+select marc_match('520', '.*')
+

@@ -1,0 +1,8 @@
+# Schreibt das fehlende Feld 001 aus sequential (1. Spalte) in MARC-Feld 001
+marc_add('001', a, $._id)
+marc_cut(001, tmp001)
+marc_paste(tmp001, at:LDR)
+
+# Löscht einige nicht konforme Felder
+marc_remove(CAT)
+marc_remove(AUT)

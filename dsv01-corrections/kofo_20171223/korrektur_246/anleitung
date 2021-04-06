@@ -1,0 +1,34 @@
+
+Lieferung zu korrigierende Systemnummern an Aleph:
+scp korr_246.sys aleph@aleph.unibas.ch:/exlibris/aleph/u22_1/alephe/scratch/
+
+Export der 246-Felder der zu korrigierenden Systemnummern mit p_print_03
+ Input: korr_246.sys
+ Output: dsv01.246.seq.old
+ Felder: 246##
+ Format: Aleph Sequential
+
+Holen der alten 246-Felder von Aleph
+scp aleph@aleph.unibas.ch:/exlibris/aleph/u22_1/dsv01/scratch/dsv01.246.seq.old .
+
+Ausführen Perl-Script zur Korrektur
+perl seq2seq_korrektur_246.pl dsv01.24610 dsv01.246.seq.old dsv01.246.seq.new > not_present
+ Argumente:
+  dsv01.24610: Über Weihnachten falsch korrigierte Felder
+  dsv01.246.seq.old: Sämtlich 246-Felder der betroffenen Katalogisate
+  dsv01.246.seq.new: Neu zu ladende 246-Felder der betroffenen Katalogisate
+  not_present: Felder die nicht mehr gefunden worden sind.
+
+Entfernen von doppelten Feldern
+ sort dsv01.246.seq.new | uniq -D > dsv01.246.seq.new.uniq
+ mv dsv01.246.seq.new.uniq dsv01.246.seq.new
+
+Hochladen der Datei auf Aleph Server
+ scp dsv01.246.seq.new aleph@aleph.unibas.ch:/exlibris/aleph/u22_1/dsv01/scratch/
+
+Laden der verändertne Felder mit p_manage_18
+ Input: dsv01.246.seq.new (in dsv01/scratch)
+ Prozedur: Aktuelle Sätze in Datenbank ändern / Felder im Satz ersetzen
+ Indexieren: Vollständig
+ Katalogisierer: manage-18
+ 

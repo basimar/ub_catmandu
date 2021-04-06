@@ -1,0 +1,29 @@
+select marc_all_match('FMT','MU')
+select marc_all_match('008/06','(m|s|p|t)')
+select marc_all_match('LDR/06','(c|d)')
+select marc_all_match('LDR/07','m')
+reject marc_all_match('LDR/17','(5|8)')
+reject marc_all_match('LDR/19','a')
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("LDR/06-07","leader-06-07")
+marc_map("LDR/19","leader-19")
+marc_map("007","f007")
+marc_map("008","f008")
+marc_map("020","f020.$append", join:"; ")
+join_field("f020","##");
+marc_map("040","f040.$append", join:"; ")
+join_field("f040","##");
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");
+marc_map("300","f300.$append", join:"; ")
+join_field("f300","##");
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");
+marc_map("505","f505.$append", join:"; ")
+join_field("f505","##");
+marc_map("655","f655.$append", join:"; ")
+join_field("f655","##");
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");
+remove_field(record)

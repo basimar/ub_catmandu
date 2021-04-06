@@ -1,0 +1,14 @@
+select marc_any_match("909","(eb-eebo-bs|eb-eebo-be|eb-ecco-bs|eb-ecco-be|eb-MOMW-bs)")
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");
+marc_map("856","f856.$append", join:"; ")
+join_field("f856","##");
+marc_map("909[A, ]","f909A.$append", join:"; ")
+join_field("f909A","##");
+marc_map("909[B, ]","f909B.$append", join:"; ")
+join_field("f909B","##");
+remove_field(record)

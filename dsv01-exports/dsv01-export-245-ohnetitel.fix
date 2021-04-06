@@ -1,0 +1,21 @@
+select marc_any_match("245","Ohne Titel")
+marc_map("FMT","fmt")
+marc_map("LDR","ldr")
+marc_map("008","f008")
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");  
+marc_map("040","f040.$append", join:"; ")
+join_field("f040","##");  
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");  
+marc_map("264","f264.$append", join:"; ")
+join_field("f264","##");  
+marc_map("300","f300.$append", join:"; ")
+join_field("f300","##");  
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");  
+marc_map("773","f773.$append", join:"; ")
+join_field("f773","##");  
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");  
+remove_field(record)

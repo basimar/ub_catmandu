@@ -1,0 +1,27 @@
+marc_map("245","f245.$append", join:", ")
+join_field("f245","##");  
+marc_map("338a","f338a.$append", join:", ")
+join_field("f338a","##");  
+marc_map("856a","f856a.$append", join:", ")
+join_field("f856a","##");  
+marc_map("856u","f856u.$append", join:", ")
+join_field("f856u","##");  
+marc_map("856z","f856z.$append", join:", ")
+join_field("f856z","##");  
+marc_map("856x","f856x.$append", join:", ")
+join_field("f856x","##");  
+marc_map("8569","f8569.$append", join:", ")
+join_field("f8569","##");  
+marc_map("909[A]a","f909Aa.$append", join:", ")
+join_field("f909Aa","##");  
+marc_map("909[A]f","f909Af.$append", join:", ")
+join_field("f909Af","##");  
+marc_map("909[B]a","f909Ba.$append", join:", ")
+join_field("f909Ba","##");  
+marc_map("909[B]f","f909Bf.$append", join:", ")
+join_field("f909Bf","##");  
+marc_map("909[I]f","f909If.$append", join:", ")
+join_field("f909If","##");  
+marc_map("909[I]a","f909Ia.$append", join:", ")
+join_field("f909Ia","##");  
+remove_field(record)

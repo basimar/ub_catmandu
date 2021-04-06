@@ -1,0 +1,23 @@
+do marc_each()
+  if marc_match("852b","(A125)")
+    marc_map("852h","holsignatur.$append", join:" ")
+  end
+  if marc_match("949b","(A125)")
+    marc_map("949j","signatur.$append", join:" ")
+  end
+end
+join_field("holsignatur","##");  
+join_field("signatur","##");  
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");  
+marc_map("264","f264.$append", join:" ")
+join_field("f264","##");  
+marc_map("110","f110.$append", join:" ")
+join_field("f110","##");  
+marc_map("710","f710.$append", join:" ")
+join_field("f710","##");  
+marc_map("650","f650.$append", join:" ")
+join_field("f650","##");  
+marc_map("651","f651.$append", join:" ")
+join_field("f651","##");  
+remove_field(record)

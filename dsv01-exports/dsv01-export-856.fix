@@ -1,0 +1,55 @@
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("006","f006")
+marc_map("007","f007")
+marc_map("008","f008")
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");
+marc_map("020","f020.$append", join:"; ")
+join_field("f020","##");
+marc_map("040","f040.$append", join:"; ")
+join_field("f040","##");
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");
+marc_map("949b","f949b.$append", join:"; ")
+join_field("f949b","##");
+marc_map("852","f852.$append", join:"; ")
+join_field("f852","##");
+marc_map("949","f949.$append", join:"; ")
+join_field("f949","##");
+marc_map("720","f720.$append", join:"; ")
+join_field("f720","##");
+marc_map("770","f770.$append", join:"; ")
+join_field("f770","##");
+marc_map("772","f772.$append", join:"; ")
+join_field("f772","##");
+marc_map("776","f776.$append", join:"; ")
+join_field("f776","##");
+marc_map("780","f780.$append", join:"; ")
+join_field("f780","##");
+marc_map("785","f785.$append", join:"; ")
+join_field("f785","##");
+marc_map("856","f856.$append", join:"; ")
+join_field("f856","##");
+marc_map("909[A, ]","f909A.$append", join:"; ")
+join_field("f909A","##");
+marc_map("909[F, ]","f909F.$append", join:"; ")
+join_field("f909F","##");
+marc_map("909[B, ]","f909B.$append", join:"; ")
+join_field("f909B","##");
+marc_map("909[G, ]","f909G.$append", join:"; ")
+join_field("f909G","##");
+marc_map("909[I, ]","f909I.$append", join:"; ")
+join_field("f909I","##");
+marc_map("909[M, ]","f909M.$append", join:"; ")
+join_field("f909M","##");
+marc_map("909[D,S]","f909DS.$append", join:"; ")
+join_field("f909DS","##");
+marc_map("PST[ , ]b","fitem.$append", join:"; ")
+marc_map("PST[6, ]b","fitem.$append", join:"; ")
+join_field("fitem","##");
+marc_map("PST[4, ]b","fholding.$append", join:"; ")
+join_field("fholding","##");
+remove_field(record)

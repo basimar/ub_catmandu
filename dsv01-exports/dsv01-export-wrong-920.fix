@@ -1,0 +1,42 @@
+select marc_match('920','')
+reject marc_any_match('909','(eb-ecco-bs|eb-ecco-be|eb-eebo-bs|eb-eebo-be)')
+marc_map('LDR','ldr')
+marc_map('007','f007')
+marc_map('008','f008')
+marc_map("008/07-10","year")
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("019","f019.$append", join:" ")
+join_field("f019","##");
+marc_map("040","f040.$append", join:" ")
+join_field("f040","##");
+marc_map("100","f100.$append", join:" ")
+marc_map("700","f100.$append", join:" ")
+join_field("f100","##");
+marc_map("110","f110.$append", join:" ")
+marc_map("710","f110.$append", join:" ")
+join_field("f110","##");
+marc_map("111","f111.$append", join:" ")
+marc_map("711","f111.$append", join:" ")
+join_field("f111","##");
+marc_map("264","f264.$append", join:" ")
+join_field("f264","##");
+marc_map("300","f300.$append", join:" ")
+join_field("f300","##");
+marc_map("336","f336.$append", join:" ")
+join_field("f336","##");
+marc_map("337","f337.$append", join:" ")
+join_field("f337","##");
+marc_map("338","f338.$append", join:" ")
+join_field("f338","##");
+marc_map("949","f949.$append", join:" ")
+join_field("f949","##");
+marc_map("852","f852.$append", join:" ")
+join_field("f852","##");
+marc_map("856","f856.$append", join:" ")
+join_field("f856","##");
+marc_map("909","f909.$append", join:" ")
+join_field("f909","##");
+marc_map("920","f920.$append", join:" ")
+join_field("f920","##");
+remove_field(record)

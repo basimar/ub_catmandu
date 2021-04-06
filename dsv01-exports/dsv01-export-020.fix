@@ -1,0 +1,19 @@
+marc_map("020","f020.$append", join:" ")
+join_field("f020","##");  
+marc_map("020a","f020a.$append", join:" ")
+join_field("f020a","##");  
+marc_map("020z","f020z.$append", join:" ")
+join_field("f020z","##");  
+marc_map("100","f100.$append", join:" ")
+marc_map("110","f100.$append", join:" ")
+marc_map("111","f100.$append", join:" ")
+join_field("f100","##");  
+marc_map("245a","f245.$append", join:" ")
+join_field("f245","##");  
+marc_map("264a","f264a.$append", join:" ")
+join_field("f264a","##");  
+marc_map("264b","f264b.$append", join:" ")
+join_field("f264b","##");  
+marc_map("264c","f264c.$append", join:" ")
+join_field("f264c","##");  
+remove_field(record)

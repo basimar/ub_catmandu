@@ -1,0 +1,49 @@
+dsv01-Gesamtexport auf Aleph-Server mit p_print_03
+ Input: dsv01.sys (in Alephe-Scratch)
+ Output: dsv01.seq (in dsv01-Scratch)
+ Felder: ALL
+ Format: Aleph Sequential
+
+Herunterladen dsv01-Gesamtexport von Aleph-Server
+/opt/data/dsv01/.download-dsv01-sequential.sh
+
+Exportieren der zu korrigierenden Felder
+perl seq2seq_sach_select.pl /opt/data/dsv01/dsv01.seq dsv01_sach.sys
+ Argumente
+  /opt/data/dsv01/dsv01.seq: Gesamtauszug dsv01
+  dsv01_sach.sys: Zu korrigierende Systemnummern
+
+Kopieren Systemnummern auf Aleph-Server
+scp dsv01_sach.sys aleph@aleph.unibas.ch:/exlibris/aleph/u22_1/alephe/scratch/
+
+Exportieren der 600 und 610-Felder der betroffenen Katalogisate mit p_print_03
+ Input: dsv01_sach.sys (in alephe/scratch)
+ Output: dsv01_sach.seq.old (in dsv01/scratch)
+ Felder: 600## und 610##
+ Format: Aleph Sequential
+
+Holen der Felder der betroffenen Katalogisate
+ scp aleph@aleph:/exlibris/aleph/u22_1/dsv01/scratch/dsv01_sach.seq.old dsv01_sach.seq.old
+
+Dedublieren doppelt vorhandener Felder
+ sort dsv01_sach.seq.old | uniq > dsv01_sach.seq.old.uniq
+ mv dsv01_sach.seq.old.uniq dsv01_sach.seq.old
+
+Korrektur per Perl-Script
+ perl seq2seq_sach_correct.pl dsv01_sach.seq.old > dsv01_sach.seq.new
+
+Dedublierung doppelt vorhandener Felder
+sort dsv01_sach.seq.new | uniq > dsv01_sach.seq.new.uniq
+mv dsv01_sach.seq.new.uniq dsv01_sach.seq.new
+
+Kopieren der zu ladenden Felder nach Aleph
+scp dsv01_sach.seq.new aleph@aleph.unibas.ch:/exlibris/aleph/u22_1/dsv01/scratch/
+
+Laden der verändertne Felder mit p_manage_18
+ Input: dsv01_sach.seq.new (in dsv01/scratch)
+ Prozedur: Aktuelle Sätze in Datenbank ändern / Felder im Satz ersetzen
+ Indexieren: Vollständig
+ Katalogisierer: manage-18
+
+
+

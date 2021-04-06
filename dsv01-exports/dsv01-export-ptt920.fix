@@ -1,0 +1,7 @@
+select marc_match('920','.*')
+select marc_match('019','Konvertierte Aufnahme MfK/PTT')
+marc_map('920','f920')
+marc_map('008/07-10','year')
+marc_map('019','note')
+marc_map('245','title')
+remove_field(record)

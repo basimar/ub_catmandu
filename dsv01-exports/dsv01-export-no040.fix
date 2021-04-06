@@ -1,0 +1,7 @@
+marc_map('040','f040')
+if exists('f040') 
+   reject()
+end
+marc_map('LDR/17','niveau')
+marc_map('008/00-05','creation')
+remove_field(record)

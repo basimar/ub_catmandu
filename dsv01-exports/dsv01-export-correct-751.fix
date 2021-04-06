@@ -1,0 +1,22 @@
+marc_map('LDR','ldr')
+marc_map('008','f008')
+marc_map("008/07-10","year")
+marc_map("040a","f040.$append", join:" ")
+join_field("f040","##");
+marc_map("100","f100.$append", join:" ")
+marc_map("110","f100.$append", join:" ")
+marc_map("111","f100.$append", join:" ")
+join_field("f100","##");
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("264","f264.$append", join:" ")
+join_field("f264","##");
+marc_map("700","f700.$append", join:" ")
+marc_map("710","f700.$append", join:" ")
+marc_map("711","f700.$append", join:" ")
+join_field("f700","##");
+marc_map("751","f751.$append", join:" ")
+join_field("f751","##");
+marc_map("909","f909.$append", join:" ")
+join_field("f909","##");
+remove_field(record)

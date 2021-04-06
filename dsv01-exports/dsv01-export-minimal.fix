@@ -1,0 +1,61 @@
+marc_map('250','250')
+if exists('250') 
+   reject()
+end
+marc_map('260','260')
+if exists('260') 
+   reject()
+end
+marc_map('264','264')
+if exists('264') 
+   reject()
+end
+marc_map('300','300')
+if exists('300') 
+   reject()
+end
+marc_map('490','490')
+if exists('490') 
+   reject()
+end
+marc_map('700','700')
+if exists('700') 
+   reject()
+end
+marc_map('710','710')
+if exists('710') 
+   reject()
+end
+marc_map('711','711')
+if exists('711') 
+   reject()
+end
+marc_map('773','773')
+if exists('773') 
+   reject()
+end
+marc_map('100','100')
+if exists('100') 
+   reject()
+end
+marc_map('110','110')
+if exists('110') 
+   reject()
+end
+marc_map('111','111')
+if exists('111') 
+   reject()
+end
+marc_map('245','245')
+unless exists('245') 
+   reject()
+end
+marc_map('008/07-10','year')
+unless any_match('year', '\d\d\d\d')
+   reject()
+end
+marc_map('019','interne notiz')
+marc_map('245','title')
+marc_map('909','codes')
+marc_map('008','f008')
+remove_field(record)

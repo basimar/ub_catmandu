@@ -1,0 +1,34 @@
+do marc_each()
+  if marc_match("852b","(A348)")
+    marc_map("852h","callno", join:" ")
+    marc_map("852c","location", join:" ")
+    marc_map("866a","holdings", join:" ")
+  end
+end
+marc_map("008","f008.$append", join:" ")
+join_field("f008","##");  
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");  
+marc_map("264","f264.$append", join:" ")
+join_field("f264","##");  
+marc_map("362","f362.$append", join:" ")
+join_field("f362","##");  
+marc_map("505","f505.$append", join:" ")
+join_field("f505","##");  
+marc_map("520","f520.$append", join:" ")
+join_field("f520","##");  
+marc_map("770","f770.$append", join:" ")
+join_field("f770","##");  
+marc_map("772","f772.$append", join:" ")
+join_field("f772","##");  
+marc_map("776","f776.$append", join:" ")
+join_field("f776","##");  
+marc_map("777","f777.$append", join:" ")
+join_field("f777","##");  
+marc_map("780","f780.$append", join:" ")
+join_field("f780","##");  
+marc_map("785","f785.$append", join:" ")
+join_field("f785","##");  
+marc_map("909","f909.$append", join:" ")
+join_field("f909","##");  
+remove_field(record)

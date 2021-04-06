@@ -1,0 +1,8 @@
+reject marc_match('FMT','SE')
+marc_map('FMT','fFMT')
+marc_map('LDR','fLDR')
+marc_map('007','f007')
+marc_map('040e','f040e')
+marc_map('245','f245')
+marc_map('655','f655', join:' # ')
+remove_field(record)

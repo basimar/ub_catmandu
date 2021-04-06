@@ -1,0 +1,53 @@
+marc_map('FMT','fFMT')
+marc_map('LDR','fLDR')
+marc_map('LDR/06','fLDR06')
+marc_map('LDR/07','fLDR07')
+marc_map('008','f008')
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");  
+marc_map("020","f020.$append", join:"; ")
+join_field("f020","##");  
+marc_map("022","f022.$append", join:"; ")
+join_field("f022","##");  
+marc_map("035","f035.$append", join:"; ")
+join_field("f035","##");  
+marc_map("040","f040.$append", join:"; ")
+join_field("f040","##");  
+marc_map("100","f100.$append", join:"; ")
+marc_map("110","f100.$append", join:"; ")
+marc_map("111","f100.$append", join:"; ")
+marc_map("130","f100.$append", join:"; ")
+join_field("f100","##");  
+marc_map("700","f700.$append", join:"; ")
+marc_map("710","f700.$append", join:"; ")
+marc_map("711","f700.$append", join:"; ")
+marc_map("730","f700.$append", join:"; ")
+join_field("f700","##");  
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");  
+marc_map("246","f246.$append", join:"; ")
+join_field("f246","##");  
+marc_map("264","f264.$append", join:"; ")
+join_field("f264","##");  
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");  
+marc_map("490w","f490w.$append", join:"; ")
+join_field("f490w","##");  
+marc_map("500","f500.$append", join:"; ")
+join_field("f500","##");  
+marc_map("590","f590.$append", join:"; ")
+join_field("f590","##");  
+marc_map("773","f773.$append", join:"; ")
+join_field("f773","##");  
+marc_map("773w","f773w.$append", join:"; ")
+join_field("f773w","##");  
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");  
+marc_map("925","f925.$append", join:"; ")
+join_field("f925","##");
+marc_map("PST[ , ]b","fitem.$append", join:"; ")
+marc_map("PST[6, ]b","fitem.$append", join:"; ")
+marc_map("PST[4, ]b","fholding.$append", join:"; ")
+join_field("fitem","##");
+join_field("fholding","##");
+remove_field(record)

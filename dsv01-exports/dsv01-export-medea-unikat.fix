@@ -1,0 +1,4 @@
+select marc_match('090b','ABN01')
+select marc_match('752','')
+marc_map(752,'f752')
+remove_field(record)

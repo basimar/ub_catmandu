@@ -1,0 +1,37 @@
+select marc_match('041','.*')
+marc_map("LDR","leader")
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");
+marc_map("008/35-37","f008l.$append", join:"; ")
+join_field("f008l","##");  
+marc_map("041a","f041a.$append", join:"; ")
+join_field("f041a","##"); 
+marc_map("041b","f041b.$append", join:"; ")
+join_field("f041b","##"); 
+marc_map("041d","f041d.$append", join:"; ")
+join_field("f041d","##"); 
+marc_map("041e","f041e.$append", join:"; ")
+join_field("f041e","##"); 
+marc_map("041f","f041f.$append", join:"; ")
+join_field("f041f","##"); 
+marc_map("041g","f041g.$append", join:"; ")
+join_field("f041g","##"); 
+marc_map("041h","f041h.$append", join:"; ")
+join_field("f041h","##"); 
+marc_map("041j","f041j.$append", join:"; ")
+join_field("f041j","##"); 
+marc_map("041k","f041k.$append", join:"; ")
+join_field("f041k","##"); 
+marc_map("041m","f041m.$append", join:"; ")
+join_field("f041m","##"); 
+marc_map("041n","f041n.$append", join:"; ")
+join_field("f041n","##"); 
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##"); 
+marc_map("264a","f264a.$append", join:"; ")
+join_field("f264a","##");
+marc_map("264b","f264b.$append", join:"; ")
+join_field("f264b","##");
+marc_map("546","f546.$append", join:"; ")
+join_field("f546","##");  
+remove_field(record)

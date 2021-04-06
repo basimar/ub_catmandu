@@ -1,0 +1,38 @@
+do marc_each()
+  if marc_match("949b","(A332)")
+    marc_map("949j","signatur", join:"##")
+    marc_map("949c","standort", join:"##")
+  end
+end
+marc_map("LDR","leader")
+marc_map("007","f007.$append", join:"; ")
+join_field("f007","##");  
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");  
+marc_map("028","f028.$append", join:"; ")
+join_field("f028","##");  
+marc_map("090","f090.$append", join:"; ")
+join_field("f090","##");  
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");  
+marc_map("246","f246.$append", join:"; ")
+join_field("f246","##");  
+marc_map("264","f264.$append", join:"; ")
+join_field("f264","##");  
+marc_map("300","f300.$append", join:"; ")
+join_field("f300","##");  
+marc_map("336","f336.$append", join:"; ")
+join_field("f336","##");  
+marc_map("505","f505.$append", join:"; ")
+join_field("f505","##");  
+marc_map("511","f511.$append", join:"; ")
+join_field("f511","##");  
+marc_map("508","f508.$append", join:"; ")
+join_field("f508","##");  
+marc_map("100","f100.$append", join:"; ")
+join_field("f100","##");  
+marc_map("700","f700.$append", join:"; ")
+join_field("f700","##");  
+marc_map("920","f920.$append", join:"; ")
+join_field("f920","##");  
+remove_field(record)

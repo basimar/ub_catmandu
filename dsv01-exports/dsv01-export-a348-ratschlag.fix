@@ -1,0 +1,9 @@
+marc_map('245a','titel', join:' # ')
+marc_map('245b','zusatztitel', join:' # ')
+marc_map('245c','urheberangabe', join:' # ')
+marc_map('246a','alternativtitel', join:' # ')
+marc_map('300a','umfang', join:' # ')
+marc_map('300b','physischemerkmale', join:' # ')
+marc_map('9403','signatur', join:' # ')
+
+remove_field(record)

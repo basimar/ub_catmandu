@@ -1,0 +1,11 @@
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");  
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");  
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");  
+marc_map("856","f856.$append", join:"; ")
+join_field("f856","##");  
+marc_map("852b","f852.$append", join:"; ")
+join_field("f852","##");  
+remove_field(record)

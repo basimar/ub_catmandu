@@ -1,0 +1,76 @@
+marc_map("690[B,1]","f690s")
+marc_map("690[B,5]","f690s")
+marc_map("690[B,8]","f690s")
+marc_map("690[B,F]","f690s")
+marc_map("690[B,H]","f690s")
+marc_map("690[B,I]","f690s")
+marc_map("690[B,J]","f690s")
+marc_map("690[B,K]","f690s")
+marc_map("690[B,L]","f690s")
+marc_map("690[B,M]","f690s")
+marc_map("690[B,N]","f690s")
+marc_map("690[B,O]","f690s")
+marc_map("690[B,P]","f690s")
+marc_map("690[B,S]","f690s")
+marc_map("690[B,U]","f690s")
+marc_map("690[B,W]","f690s")
+marc_map("690[B,X]","f690s")
+marc_map("690[B,Y]","f690s")
+marc_map("690[B,Z]","f690s")
+marc_map("690[G,6]","f690s")
+marc_map("690[G,A]","f690s")
+marc_map("690[G,F]","f690s")
+marc_map("690[F,1]","f690s")
+marc_map("690[B,6]","f690s")
+marc_map("690[B,V]","f690s")
+marc_map("691[G,D]","f690s")
+marc_map("691[G,P]","f690s")
+marc_map("691[G,L]","f690s")
+
+unless exists('f690s')
+    reject()
+end
+
+marc_map("FMT","fFMT")
+marc_map("LDR/07","fldr07")
+marc_map("LDR/19","fldr19")
+marc_map("020","f020.$append", join:" ")
+join_field("f020","##");  
+marc_map("072","f072.$append", join:" ")
+join_field("f072","##");  
+marc_map("082","f082.$append", join:" ")
+join_field("f082","##");  
+marc_map("084","f084.$append", join:" ")
+join_field("f084","##");  
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");  
+marc_map("100","f100.$append", join:" ")
+marc_map("700","f100.$append", join:" ")
+join_field("f100","##");  
+marc_map("110","f110.$append", join:" ")
+marc_map("710","f110.$append", join:" ")
+join_field("f110","##");  
+marc_map("008/07-10","year")
+marc_map("490","f490.$append", join:" ")
+join_field("f490","##");  
+marc_map("773","f773.$append", join:" ")
+join_field("f773","##");  
+marc_map("600","f600.$append", join:" ")
+join_field("f600","##");  
+marc_map("610","f610.$append", join:" ")
+join_field("f610","##");  
+marc_map("611","f611.$append", join:" ")
+join_field("f611","##");  
+marc_map("630","f630.$append", join:" ")
+join_field("f630","##");  
+marc_map("648","f648.$append", join:" ")
+join_field("f648","##");  
+marc_map("650","f650.$append", join:" ")
+join_field("f650","##");  
+marc_map("651","f651.$append", join:" ")
+join_field("f651","##");  
+marc_map("655","f655.$append", join:" ")
+join_field("f655","##");  
+marc_map("690","f690.$append", join:" ")
+join_field("f690","##");  
+remove_field(record)

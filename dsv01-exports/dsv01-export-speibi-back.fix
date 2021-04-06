@@ -1,0 +1,15 @@
+do marc_each()
+  if marc_match("949b","(BSSBK)")
+    marc_map("949b","zweigstelle", join:" ")
+    marc_map("949c","collection", join:" ")
+    marc_map("949r","itemkey", join:" ")
+    marc_map("949j","sig", join:" ")
+    marc_map("949p","barcode", join:" ")
+    marc_map("949z","description", join:" ")
+    marc_map("949x","note", join:" ")
+    marc_map("949y","note_opac", join:" ")
+    marc_map("9498","enumaration", join:" ")
+    marc_map("9499","chronological", join:" ")
+  end
+end
+remove_field(record)

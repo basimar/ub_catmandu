@@ -1,0 +1,33 @@
+marc_map("600[,2]","f6002.$append", join:" ")
+join_field("f6002","##");  
+marc_map("610[,2]","f6102.$append", join:" ")
+join_field("f6102","##");  
+marc_map("611[,2]","f6112.$append", join:" ")
+join_field("f6112","##");  
+marc_map("630[,2]","f6302.$append", join:" ")
+join_field("f6302","##");  
+marc_map("648[,2]","f6482.$append", join:" ")
+join_field("f6482","##");  
+marc_map("650[,2]","f6502.$append", join:" ")
+join_field("f6502","##");  
+marc_map("651[,2]","f6512.$append", join:" ")
+join_field("f6512","##");  
+marc_map("655[,2]","f6552.$append", join:" ")
+join_field("f6552","##");  
+marc_map("600[,7]","f6007.$append", join:" ")
+join_field("f6007","##");  
+marc_map("610[,7]","f6107.$append", join:" ")
+join_field("f6107","##");  
+marc_map("611[,7]","f6117.$append", join:" ")
+join_field("f6117","##");  
+marc_map("630[,7]","f6307.$append", join:" ")
+join_field("f6307","##");  
+marc_map("648[,7]","f6487.$append", join:" ")
+join_field("f6487","##");  
+marc_map("650[,7]","f6507.$append", join:" ")
+join_field("f6507","##");  
+marc_map("651[,7]","f6517.$append", join:" ")
+join_field("f6517","##");  
+marc_map("655[,7]","f6557.$append", join:" ")
+join_field("f6557","##"); 
+remove_field(record)

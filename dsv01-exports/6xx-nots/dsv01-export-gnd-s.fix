@@ -1,0 +1,4 @@
+reject marc_any_match('079q','s')
+marc_map("035a","f035.$append", join:" ")
+join_field("f035","##");
+remove_field(record)

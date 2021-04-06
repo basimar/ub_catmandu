@@ -1,0 +1,30 @@
+marc_map("691[F,G]","f691s")
+marc_map("691[F,H]","f691s")
+
+unless exists('f691s')
+    reject()
+end
+
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");  
+marc_spec("600{$2~\gnd}","f600gnd.$append", join:" ")
+join_field("f600gnd","##");  
+marc_spec("610{$2~\gnd}","f610gnd.$append", join:" ")
+join_field("f610gnd","##");  
+marc_spec("611{$2~\gnd}","f611gnd.$append", join:" ")
+join_field("f611gnd","##");  
+marc_spec("630{$2~\gnd}","f630gnd.$append", join:" ")
+join_field("f630gnd","##");  
+marc_spec("648{$2~\gnd}","f648gnd.$append", join:" ")
+join_field("f648gnd","##");  
+marc_spec("650{$2~\gnd}","f650gnd.$append", join:" ")
+join_field("f650gnd","##");  
+marc_spec("651{$2~\gnd}","f651gnd.$append", join:" ")
+join_field("f651gnd","##");  
+marc_spec("655{$2~\gnd}","f655gnd.$append", join:" ")
+join_field("f655gnd","##");  
+marc_map("691[F,G]","f691fg.$append", join:" ")
+join_field("f691fg","##");  
+marc_map("691[F,H]","f691fh.$append", join:" ")
+join_field("f691fh","##");  
+remove_field(record)

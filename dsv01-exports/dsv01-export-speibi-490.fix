@@ -1,0 +1,10 @@
+do marc_each()
+  if marc_match("949b","(A100|A125|A140|A900|A901|Z998)")
+    marc_map("949b","zweigstelle", join:" ")
+  end
+end
+marc_map("490","f490.$append", join:"; ")
+join_field("f490","##");  
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");  
+remove_field(record)

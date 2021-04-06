@@ -1,0 +1,6 @@
+005386402 63007 L $$aCanzone villanesche alla napolitana$$nlibro 1$$1(DE-588)7698486-2$$2gnd
+006421419 63007 L $$aArmenbibel$$1(DE-588)1095675257$$2gnd
+006487273 63007 L $$aKalevipoeg$$1(DE-588)1088058671$$2gnd
+006498566 63007 L $$aArmenbibel$$1(DE-588)1095675257$$2gnd
+006791294 63007 L $$a<<Das>> Kapital$$1(DE-588)1111900027$$2gnd
+006832599 63007 L $$aBibel$$pJesaja$$n28-35$$1(DE-588)1173381171$$2gnd

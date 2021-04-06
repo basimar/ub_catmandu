@@ -1,0 +1,3 @@
+select marc_match('019','Datenkonversion ZB Solothurn')
+select marc_match('920', '.*')
+

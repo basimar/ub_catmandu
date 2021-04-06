@@ -1,0 +1,6 @@
+1. Alle 072-Felder exportieren -> dsv01.072
+2. Zu bereinigende 072-Felder bereitstellen -> 072del.input
+3. select_072.pl extrahiert die zu bereinigenden Felder aus dsv01.072 -> dsv01.072.del
+4. mit cut -c1-9 | sort | uniq eine Liste von Systemnummern generieren -> dsv01.072.del.sys
+5. Alle Aufnahmen in dsv01.072.del.sys aus Aleph exportieren -> dsv01.072.del.seq
+6. delete_072.pl gibt alle Felder ausser den zu bereinigenden Felder aus -> dsv01.072.reload.seq

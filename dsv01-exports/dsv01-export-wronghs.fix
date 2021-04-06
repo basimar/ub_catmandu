@@ -1,0 +1,6 @@
+select marc_match('LDR/06','(d|f|t)')
+marc_map('LDR/06','format')
+marc_map('008/07-10','year')
+marc_map('040a','source')
+marc_map('245','title')
+remove_field(record)

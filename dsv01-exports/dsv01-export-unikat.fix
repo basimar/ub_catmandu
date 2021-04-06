@@ -1,0 +1,28 @@
+select marc_match('008/07-10','^(10|11|12|13|14|15|16|17|180|181|182|1830)')
+marc_map("FMT","satzformat")
+marc_map("LDR","leader")
+marc_map("LDR/06","leader06")
+marc_map("LDR/07","leader07")
+marc_map("LDR/17","leader17")
+marc_map("007","f007.$append", join:"; ")
+join_field("f007","##");
+marc_map("008","f008.$append", join:"; ")
+join_field("f008","##");
+marc_map("008/06","f0086")
+marc_map("008/07-10","f0087")
+marc_map("008/11-14","f00811")
+marc_map("245","f245.$append", join:"; ")
+join_field("f245","##");
+marc_map("019","f019.$append", join:"; ")
+join_field("f019","##");
+marc_map("561","f561.$append", join:"; ")
+join_field("f561","##");
+marc_map("563","f563.$append", join:"; ")
+join_field("f563","##");
+marc_map("590","f590.$append", join:"; ")
+join_field("f590","##");
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");
+marc_map("PSTb","fPST.$append", join:"; ")
+join_field("fPST","##");
+remove_field(record)

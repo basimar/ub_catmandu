@@ -1,0 +1,9 @@
+select marc_match('019','Datenkonversion ZB Solothurn')
+select marc_match('920', '.*')
+add_field('ExSpez','NO')
+if marc_match('019','Exemplarspezifische Aufnahme')
+  set_field('ExSpez','YES')
+end
+marc_map('920','Provisorische Ansetzungen',join:'; ')
+remove_field(record)
+

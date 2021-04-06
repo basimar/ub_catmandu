@@ -1,0 +1,3 @@
+marc_map("909","f909.$append", join:"; ")
+join_field("f909","##");  
+remove_field(record)

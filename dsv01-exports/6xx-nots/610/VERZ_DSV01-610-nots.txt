@@ -1,0 +1,175 @@
+000024260 61027 L $$aSammlung Crex$$gZürich$$1(DE-588)810180-2$$2gnd
+000124617 61027 L $$aBibliothèque Humaniste de Sélestat$$1(DE-588)26829-X$$2gnd
+000198856 61027 L $$aBasler Bandfabrik vorm. Trüdinger & Cons.$$1(DE-588)108623782X$$2gnd
+000307996 61027 L $$aPfarrverein des Kantons Zürich$$1(DE-588)5251752-4$$2gnd
+000357528 61027 L $$aMedizinisches Institut$$gBern$$1(DE-588)1087381975$$2gnd
+000781450 61027 L $$aBiscuits Pernot$$gDijon$$1(DE-588)10118402-5$$2gnd
+000821648 61027 L $$aKatholische Kirche$$bRota Romana$$1(DE-588)1003483-3$$2gnd
+000822045 61027 L $$aKatholische Kirche$$bRota Romana$$1(DE-588)1003483-3$$2gnd
+000958893 61027 L $$aKantonal-Bernischer Jagd- und Wildschutzverband$$1(DE-588)2148718-2$$2gnd
+000972338 61027 L $$aAutoverkehr Thun-Goldiwil-Heiligenschwendi$$1(DE-588)1086365097$$2gnd
+001036021 61027 L $$aHeil- und Pflegeanstalt Eglfing$$1(DE-588)1054069-6$$2gnd
+001070976 61027 L $$aWojewódzkie Archiwum Państwowe w Gdańsku$$1(DE-588)3016677-9$$2gnd
+001248988 61027 L $$aSkulpturhalle Basel$$1(DE-588)13156-8$$2gnd
+001284442 61027 L $$aUrologische Universitätsklinik$$gBern$$1(DE-588)16197744-3$$2gnd
+001354240 61027 L $$aSchweizerische Geflügelzuchtschule$$1(DE-588)1086850300$$2gnd
+002285929 61027 L $$aWojewódzkie Archiwum Państwowe w Gdańsku$$1(DE-588)3016677-9$$2gnd
+003107435 61017 L $$aÖsterreich-Ungarn$$bK.u.K. Heer$$bInfanterie-Regiment, 59$$1(DE-588)6097384-5$$2gnd
+003300598 61027 L $$aScience Museum$$gLondon$$1(DE-588)1007739-X$$2gnd
+003729617 61027 L $$aBasler Bandfabrik vorm. Trüdinger & Cons.$$1(DE-588)108623782X$$2gnd
+003833258 61027 L $$aEidgenössische Militärbibliothek$$1(DE-588)32593-4$$2gnd
+003913906 61027 L $$aMädchensekundarschule$$gBurgdorf$$1(DE-588)1086800109$$2gnd
+003985813 61027 L $$aMakah Cultural and Research Center$$1(DE-588)1085884023$$2gnd
+004218818 61027 L $$aKlinik für Kieferorthopädie$$gBern$$1(DE-588)1181163323$$2gnd
+004259960 61027 L $$aScience Museum$$gLondon$$1(DE-588)1007739-X$$2gnd
+004457500 61027 L $$aMuseum für Kunst und Gewerbe Hamburg$$bSammlung Andreas und Heikedine Beurmann$$1(DE-588)5520487-9$$2gnd
+004471243 61027 L $$aHare-Krischna-Bewegung$$1(DE-588)5159305-1$$2gnd
+004966942 61027 L $$aKatholische Kirche$$bRota Romana$$1(DE-588)1003483-3$$2gnd
+005242106 61027 L $$aStiftung Diakonissenhaus Bern$$1(DE-588)10106720-3$$2gnd
+005272392 61027 L $$aHare-Krischna-Bewegung$$1(DE-588)5159305-1$$2gnd
+005608538 61027 L $$ameier & associés architectes$$1(DE-588)6033052-1$$2gnd
+005649034 61027 L $$aNeumeister Münchener Kunstauktionshaus$$1(DE-588)2054554-X$$2gnd
+005668979 61027 L $$aStiftung zur Förderung der Philatelie$$1(DE-588)1085247724$$2gnd
+005668993 61027 L $$aStiftung zur Förderung der Philatelie$$1(DE-588)1085247724$$2gnd
+005699541 61027 L $$aNeuer Berliner Kunstverein$$bVideo-Forum$$1(DE-588)2133449-3$$2gnd
+005715637 61017 L $$aItalien$$bMinistero per i beni e le attività culturali$$1(DE-588)5541509-X$$2gnd
+005945878 61027 L $$aKatholische Kirche$$bRota Romana$$1(DE-588)1003483-3$$2gnd
+006025713 61027 L $$aMuseum für Kunst und Gewerbe Hamburg$$bSammlung Andreas und Heikedine Beurmann$$1(DE-588)5520487-9$$2gnd
+006166896 61017 L $$aGroßbritannien$$bWar Office$$1(DE-588)252154-4$$2gnd
+006187528 61027 L $$aMuseum Baviera$$1(DE-588)5525107-9$$2gnd
+006280452 61027 L $$aMusée des instruments de musique$$gBruxelles$$1(DE-588)1090668333$$2gnd
+006304771 61027 L $$aBibliothèque Humaniste de Sélestat$$1(DE-588)26829-X$$2gnd
+006324058 61027 L $$aKloster Santa Maria Assunta Mailand$$1(DE-588)4595871-3$$2gnd
+006453901 61027 L $$aBibliothèque Humaniste de Sélestat$$1(DE-588)26829-X$$2gnd
+006481720 61027 L $$aForschungsstelle für Auslandsdeutschtum und Auslandskunde$$gMünster (Westf)$$1(DE-588)5215583-3$$2gnd
+006483896 61027 L $$aUniversität zu Köln$$bGeographisches Institut$$1(DE-588)2011603-2$$2gnd
+006509566 61027 L $$aDeutsches Museum von Meisterwerken der Naturwissenschaft und Technik$$gMünchen$$1(DE-588)1072889927$$2gnd
+006510949 61027 L $$aKatholische Kirche$$bRota Romana$$1(DE-588)1003483-3$$2gnd
+006514140 61027 L $$aStift Steterburg$$1(DE-588)10057359-9$$2gnd
+006573667 61027 L $$aJoseph Dufour & Cie$$gMâcon$$1(DE-588)5545335-1$$2gnd
+006709074 61027 L $$aPolaroid Collection$$gCambridge, Mass.$$1(DE-588)16313327-X$$2gnd
+006730866 61027 L $$aHeil- und Pflegeanstalt Eglfing$$1(DE-588)1054069-6$$2gnd
+006731246 61027 L $$aCentro Studi Poltronova$$1(DE-588)1158692846$$2gnd
+006738909 61027 L $$aSchweizerische Herzstiftung$$1(DE-588)2143590-X$$2gnd
+006746754 61027 L $$aKunsthaus Langenthal$$1(DE-588)2135418-2$$2gnd
+006753119 61027 L $$aKunstmuseum der Stadt Albstadt$$1(DE-588)108132631X$$2gnd
+006760088 61027 L $$aAlbert-Ludwigs-Universität Freiburg$$bInstitut für Kulturanthropologie und Europäische Ethnologie$$1(DE-588)1114285137$$2gnd
+006763816 61027 L $$aAmerican Arbitration Association$$1(DE-588)14521-X$$2gnd
+006769973 61027 L $$aKomitet Helsinski w Polsce$$1(DE-588)2088937-9$$2gnd
+006775401 61027 L $$aKantonsspital Baselland$$1(DE-588)1085963608$$2gnd
+006777866 61027 L $$aSchweizerische Gesellschaft für Herz- und Thorakale Gefässchirurgie$$1(DE-588)1139978942$$2gnd
+006792836 61027 L $$aLUMA Arles$$1(DE-588)1151407089$$2gnd
+006795694 61027 L $$aEvangelisch-methodistische Kirche$$gBasel$$1(DE-588)1086201574$$2gnd
+006797051 61027 L $$aMusée des instruments de musique$$gBruxelles$$1(DE-588)1090668333$$2gnd
+006798274 61027 L $$aEvangelisch-Methodistische Kirche in der Schweiz$$1(DE-588)1088180663$$2gnd
+006799155 61027 L $$ameier & associés architectes$$1(DE-588)6033052-1$$2gnd
+006809553 61027 L $$aMartin-Luther-Universität Halle-Wittenberg$$bTheologische Fakultät$$1(DE-588)1087581761$$2gnd
+006809553 61027 L $$aUniversität Tübingen$$bTheologische Fakultät$$1(DE-588)1085320251$$2gnd
+006812557 61027 L $$aPerforma$$gNew York, NY$$1(DE-588)10182324-1$$2gnd
+006814747 61017 L $$aDeutsches Reich$$bRüstungsamt$$1(DE-588)2119382-4$$2gnd
+006814747 61017 L $$aDeutsches Reich$$bWehrwirtschaftsamt$$1(DE-588)301802-7$$2gnd
+006818250 61027 L $$aAllgemeiner Wirtschaftsdienst$$gHannover$$1(DE-588)2150079-4$$2gnd
+006820405 61027 L $$aBillag AG$$1(DE-588)1085746992$$2gnd
+006824900 610 7 L $$aTata Iron and Steel Company$$81.6\xp$$1(DE-588)271119-9$$2gnd
+006825868 61027 L $$aSynagoge$$gStommeln$$1(DE-588)5528020-1$$2gnd
+006827656 61027 L $$aGalerie ArchivArte$$1(DE-588)1156307333$$2gnd
+006831788 61027 L $$aHuman Rights Watch$$1(DE-588)1220965-X$$2gnd
+006831962 61027 L $$aDesign Center Baden-Württemberg$$1(DE-588)1060927667$$2gnd
+006831989 61027 L $$aS AM Schweizerisches Architekturmuseum$$1(DE-588)10178601-3$$2gnd
+006836201 61027 L $$aStaatliche Akademie für Kunst und Kunstgewerbe$$gBreslau$$1(DE-588)10045904-3$$2gnd
+006840608 61027 L $$aEnglish East India Company$$1(DE-588)16118229-X$$2gnd
+006842653 61017 L $$aUSA$$bFarm Security Administration$$1(DE-588)2105906-8$$2gnd
+006843861 61027 L $$aPhoto League$$1(DE-588)1085896498$$2gnd
+006847119 61027 L $$aKantonales Laboratorium Basel-Stadt$$1(DE-588)1085765938$$2gnd
+006847992 61027 L $$aHard Werken$$gRotterdam$$1(DE-588)3027134-4$$2gnd
+006848920 61027 L $$aApple Computer Inc.$$gCupertino, CA$$1(DE-588)1087542227$$2gnd
+006848969 61027 L $$aHeineken NV$$gAmsterdam$$1(DE-588)273927-6$$2gnd
+006849059 61027 L $$aMarie Meierhofer Institut für das Kind$$1(DE-588)2132183-8$$2gnd
+006849968 61027 L $$aVillage Voice$$gNew York, NY$$1(DE-588)16208925-9$$2gnd
+006850587 61027 L $$aSyz Limited$$1(DE-588)5152959-2$$2gnd
+006855287 61027 L $$aBibliothèque Humaniste de Sélestat$$1(DE-588)26829-X$$2gnd
+006858013 61027 L $$aScience Museum$$gLondon$$1(DE-588)1007739-X$$2gnd
+006858718 61027 L $$aAugusta Raurica$$1(DE-588)16008073-3$$2gnd
+006859112 61027 L $$aSchweizerischer Arbeiter-Sängerverband$$1(DE-588)2107604-2$$2gnd
+006861145 61027 L $$aLambert Art Collection$$1(DE-588)1086937309$$2gnd
+007054153 61027 L $$aInternationaler Lyceum Club Basel$$1(DE-588)1086318412$$2gnd
+007054221 61027 L $$aCentre d'études internationales de la propriété industrielle$$1(DE-588)1000703-9$$2gnd
+007054222 61027 L $$aCentre d'études internationales de la propriété industrielle$$1(DE-588)1000703-9$$2gnd
+007054223 61027 L $$aCentre d'études internationales de la propriété industrielle$$1(DE-588)1000703-9$$2gnd
+007054761 61027 L $$aVanguard Group$$gMalvern, Pa.$$1(DE-588)16160702-0$$2gnd
+007055480 61027 L $$aStudio P. Facchetti$$gParis$$1(DE-588)10155618-4$$2gnd
+007057360 61027 L $$aNewspace Gallery$$gLos Angeles, Calif.$$1(DE-588)6530327-1$$2gnd
+007058385 61027 L $$aKardinal Walter Kasper Institut$$1(DE-588)1135813434$$2gnd
+007060631 61027 L $$aAO Foundation$$1(DE-588)1072263866$$2gnd
+007063311 61027 L $$aKrebsliga Beider Basel$$1(DE-588)1086058631$$2gnd
+007064107 61027 L $$aScotiabank$$1(DE-588)270467-5$$2gnd
+007065721 61027 L $$aNacionalen dvorec na kulturata$$1(DE-588)10035104-9$$2gnd
+007073874 61027 L $$aBekennende Kirche Berlin-Brandenburg$$1(DE-588)261997-0$$2gnd
+007075024 61027 L $$aGeorg-August-Universität Göttingen$$bKunstsammlung$$1(DE-588)2016831-7$$2gnd
+007077804 61027 L $$aExperiments in Art and Technology$$gNew York, N.Y.$$1(DE-588)1086193644$$2gnd
+007078132 61027 L $$aBalliana Schubert Landschaftsarchitekten$$1(DE-588)1182718760$$2gnd
+007078542 61027 L $$aIstituto Storico Italiano$$1(DE-588)1026703-7$$2gnd
+007079673 61017 L $$aBasel-Stadt$$bHochbauamt$$1(DE-588)2151203-6$$2gnd
+007080613 61027 L $$aMcClane$$gKünstlervereinigung$$1(DE-588)1183433921$$2gnd
+007090941 61027 L $$a<<La>> Mafia$$1(DE-588)16106579-X$$2gnd
+007090941 61027 L $$aSociété des magasins Prisunic$$gParis$$1(DE-588)108648407X$$2gnd
+007091014 61027 L $$aInui Architects$$1(DE-588)120358105X$$2gnd
+007093834 61027 L $$aCollezione Ramo$$1(DE-588)118480785X$$2gnd
+007094508 61027 L $$aStadtarchiv$$gLüneburg$$1(DE-588)2071131-1$$2gnd
+007095174 61027 L $$aHare-Krischna-Bewegung$$1(DE-588)5159305-1$$2gnd
+007098376 61027 L $$aC/O Berlin$$1(DE-588)10097786-8$$2gnd
+007100785 61027 L $$aMuzeul de Artă al Republicii Socialiste România$$1(DE-588)2044113-7$$2gnd
+007101325 61027 L $$aManufacture d'Annecy et Pont$$gAnnecy$$1(DE-588)1086451392$$2gnd
+007101729 61027 L $$aSpital Tiefenau$$gBern$$1(DE-588)16068619-2$$2gnd
+007101729 61027 L $$aZieglerspital$$gBern$$1(DE-588)1085881946$$2gnd
+007102222 61027 L $$aHeavenly Culture, World Peace, Restoration of Light$$1(DE-588)1185440585$$2gnd
+007102738 61027 L $$aStift Steterburg$$1(DE-588)10057359-9$$2gnd
+007103502 61027 L $$aHeavenly Culture, World Peace, Restoration of Light$$1(DE-588)1185440585$$2gnd
+007104064 61027 L $$aKloster Sursee$$1(DE-588)16180624-7$$2gnd
+007104838 61027 L $$aUniversität Hildesheim$$bInstitut für Literarisches Schreiben und Literaturwissenschaft$$1(DE-588)1070885231$$2gnd
+007109881 61017 L $$aBasel-Stadt$$bAbteilung Kultur$$1(DE-588)1076891179$$2gnd
+007111470 61027 L $$aVogt-Landschaftsarchitekten$$1(DE-588)16284874-2$$2gnd
+007111478 61027 L $$aTatiana Bilbao Estudio$$1(DE-588)1068792523$$2gnd
+007111756 61027 L $$aDodgers$$1(DE-588)10321194-9$$2gnd
+007112648 61027 L $$aGaleria Raster$$gWarschau$$1(DE-588)10169924-4$$2gnd
+007114859 61027 L $$aArbeitsgemeinschaft zum Studium der Sowjetrussischen Planwirtschaft$$1(DE-588)16138065-7$$2gnd
+007115385 61027 L $$ameier & associés architectes$$1(DE-588)6033052-1$$2gnd
+007115487 61027 L $$aBank J. Safra Sarasin$$1(DE-588)1050396588$$2gnd
+007117949 61027 L $$aBerner Fachhochschule$$bDepartement Soziale Arbeit$$1(DE-588)1151403180$$2gnd
+007119857 61027 L $$aAéroport International de Genève$$1(DE-588)1086181743$$2gnd
+007120462 61027 L $$aSchuhhaus Walder$$1(DE-588)1190848317$$2gnd
+007120838 61027 L $$aBASWA acoustic$$1(DE-588)1201746809$$2gnd
+007122299 61027 L $$aEuropees Keramisch Werkcentrum$$1(DE-588)5079685-9$$2gnd
+007126201 61027 L $$aMoskovskij Gosudarstvennyj Universitet Geodezii i Kartografii$$1(DE-588)16045593-5$$2gnd
+007126549 61027 L $$aRīgas Ekonomikas Augstskola$$1(DE-588)10118557-1$$2gnd
+007127542 61027 L $$aCambridge Analytica$$1(DE-588)1200885619$$2gnd
+007127853 61027 L $$aAugusta Raurica$$1(DE-588)16008073-3$$2gnd
+007127890 61027 L $$aCambridge Analytica$$1(DE-588)1200885619$$2gnd
+007133753 61027 L $$aḤizb-i Rastāḫīz-i Millī-i Īrān$$1(DE-588)1053251181$$2gnd
+007135756 61027 L $$aJ. Lyons & Company$$1(DE-588)1072396114$$2gnd
+007136011 61027 L $$aCircuit$$gKörperschaft$$1(DE-588)1079305017$$2gnd
+007136899 61027 L $$aMichelin & Cie$$gClermont-Ferrand$$1(DE-588)10153468-1$$2gnd
+007137049 61027 L $$aZoo$$1(DE-588)5204176-1$$2gnd
+007140328 61027 L $$aBlackstone Group$$1(DE-588)16017204-4$$2gnd
+007149260 61027 L $$aBibliothèque Humaniste de Sélestat$$1(DE-588)26829-X$$2gnd
+007149934 61027 L $$aInstituto-Escuela de Segunda Enseñanza$$gMadrid$$1(DE-588)5079071-7$$2gnd
+007155419 61017 L $$aGrenchen$$bKulturkommission$$1(DE-588)2060018-5$$2gnd
+007155453 61027 L $$aBayerisches Gewerbemuseum Nürnberg$$1(DE-588)55709-2$$2gnd
+007159087 61027 L $$aLeningradskij gosudarstvennyj universitet imeni A. A. Ždanova$$1(DE-588)2004969-9$$2gnd
+007160103 61027 L $$aBündner Kunstverein$$1(DE-588)5185789-3$$2gnd
+007160582 61027 L $$aDeutsche Bauakademie zu Berlin$$1(DE-588)2007653-8$$2gnd
+007163285 61027 L $$aNul$$gKünstlervereinigung$$1(DE-588)2127940-8$$2gnd
+007164896 61027 L $$aMoos, Giuliani, Herrmann Architekten$$1(DE-588)1143532228$$2gnd
+007164939 61027 L $$aLibelle Verlag$$1(DE-588)1064126278$$2gnd
+007165600 61027 L $$aSchlossgarten Riggisberg$$1(DE-588)116306288X$$2gnd
+007166288 61027 L $$aCambridge Analytica$$1(DE-588)1200885619$$2gnd
+007166302 61027 L $$aStadtbernische Gotthelfstiftung$$1(DE-588)1086921461$$2gnd
+007166667 61027 L $$aCasa-Museu de Guerra Junqueiro$$1(DE-588)16306433-7$$2gnd
+007168899 61027 L $$aBibliothèque Humaniste de Sélestat$$1(DE-588)26829-X$$2gnd
+007171365 61027 L $$aNielsen-Bohny & Co.$$1(DE-588)1085791343$$2gnd
+007172111 61027 L $$aBureau de recherches géologiques, géophysiques et minières$$1(DE-588)5329981-4$$2gnd
+007174049 61027 L $$aLiberal Judaism$$1(DE-588)1108842631$$2gnd
+007174341 61027 L $$aKicken Berlin$$1(DE-588)10125764-8$$2gnd
+007174623 61027 L $$aLiberal Judaism$$1(DE-588)1108842631$$2gnd
+007175101 61027 L $$aLorenzo de' Medici - The Italian International Institute$$1(DE-588)107700205X$$2gnd
+007177274 61027 L $$aKanton Bern$$bArchäologischer Dienst$$1(DE-588)1054554-2$$2gnd
