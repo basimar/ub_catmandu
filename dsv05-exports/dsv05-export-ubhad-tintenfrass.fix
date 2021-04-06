@@ -1,0 +1,8 @@
+select marc_match('852[ , ]a','Basel UB')
+marc_map('852[ , ]a','institution')
+marc_map('852[ , ]p','signatur')
+marc_map('351c','stufe')
+marc_map('046c','year', join:', ')
+marc_map('245a','titel')
+marc_map('909f','code', join:', ')
+remove_field(record)

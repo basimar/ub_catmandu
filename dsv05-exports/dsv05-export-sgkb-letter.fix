@@ -1,0 +1,8 @@
+select marc_match('852[  ]a','Vadiana')
+marc_map('852[  ]p','signature')
+unless any_match('signature','^VadSlg Ms (81|82|83|84|85|86|87|88|89|90|91|93|108|929)')
+   reject()
+end
+marc_map('351','level')
+marc_map('852[  ]q','limit')
+remove_field('record')

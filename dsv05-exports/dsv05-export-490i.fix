@@ -1,0 +1,7 @@
+marc_map('490i','490i')
+marc_map('773j','490i')
+marc_map('852[ , ]a','institution')
+marc_map('852[ , ]p','signatur')
+marc_map('245a','title',join:'. ')
+marc_map('351c','level')
+remove_field(record)

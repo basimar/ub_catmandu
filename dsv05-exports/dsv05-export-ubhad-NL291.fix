@@ -1,0 +1,6 @@
+select marc_match('852[ , ]a','Basel UB')
+select marc_match('852[ , ]p','NL 291 : A')
+marc_map('490','leveltest')
+if exists('leveltest') 
+   reject()
+end

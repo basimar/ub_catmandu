@@ -1,0 +1,3 @@
+select marc_match('852[ , ]a','Basel UB')
+select marc_match('852[ , ]b','Handschriften')
+select marc_match('852[ , ]p','NL 353')

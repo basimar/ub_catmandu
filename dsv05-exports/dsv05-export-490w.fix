@@ -1,0 +1,3 @@
+marc_map('490w','f490w')
+marc_map('773w','f773w')
+remove_field(record)

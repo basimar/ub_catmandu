@@ -1,0 +1,47 @@
+marc_map("906d","check", join:" ")
+marc_map("907d","check", join:" ")
+join_field("check","##");
+select any_match(check,'.*')
+marc_map('852[ , ]a','Library')
+marc_map('852[ , ]b','Standort')
+marc_map('852[ , ]p','Signatur')
+marc_map('852[ , ]q','Zugang')
+marc_map('852[ , ]x','Freitext unsichtbar')
+marc_map('852[ , ]z','Freitext sichtbar')
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("100","f100.$append", join:" ")
+marc_map("110","f100.$append", join:" ")
+marc_map("111","f100.$append", join:" ")
+join_field("f100","##");
+marc_map("700","f700.$append", join:" ")
+marc_map("710","f700.$append", join:" ")
+marc_map("711","f700.$append", join:" ")
+join_field("f700","##");
+marc_map("250","f250.$append", join:" ")
+join_field("f250","##");
+marc_map("300","f300.$append", join:" ")
+join_field("f300","##");
+marc_map("351","f351.$append", join:" ")
+join_field("f351","##");
+marc_map("500","f500.$append", join:" ")
+join_field("f500","##");
+marc_map("520","f520.$append", join:" ")
+join_field("f520","##");
+marc_map("525","f525.$append", join:" ")
+join_field("f525","##");
+marc_map("751","f751.$append", join:" ")
+join_field("f751","##");
+marc_map("046c","f046c.$append", join:" ")
+join_field("f046c","##");
+marc_map("909","f909.$append", join:" ")
+join_field("f909","##");
+marc_map("254","f254.$append", join:" ")
+join_field("f254","##");
+marc_map("348","f348.$append", join:" ")
+join_field("f348","##");
+marc_map("906","f906.$append", join:" ")
+join_field("f906","##");
+marc_map("907","f907.$append", join:" ")
+join_field("f907","##");
+remove_field(record)

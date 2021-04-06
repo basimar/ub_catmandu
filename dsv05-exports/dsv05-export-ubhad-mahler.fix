@@ -1,0 +1,18 @@
+select marc_match('852[  ]a','Basel UB')
+select marc_match('852[  ]p','NL 360 : D:III:')
+if marc_match('852[  ]p','NL 360 : D:III:328')
+   reject()
+end
+if marc_match('852[  ]p','NL 360 : D:III:329')
+   reject()
+end
+if marc_match('852[  ]p','NL 360 : D:III:330')
+   reject()
+end
+if marc_match('852[  ]p','NL 360 : D:III:331')
+   reject()
+end
+if marc_match('852[  ]p','NL 360 : D:III:332')
+   reject()
+end
+marc_add('001', '_'   => $._id);

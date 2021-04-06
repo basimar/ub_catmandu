@@ -1,0 +1,34 @@
+select marc_match('852[ , ]a','Basel UB')
+select marc_match('852[ , ]b','Handschriften')
+select marc_match('852[ , ]p','NL 336')
+marc_map('852[ , ]p','Signatur')
+marc_map('852[ , ]q','Zugang')
+marc_map('852[ , ]x','Freitext unsichtbar')
+marc_map('852[ , ]z','Freitext sichtbar')
+marc_map("852[A, ]","f852A.$append", join:" ")
+join_field("f852A","##");
+marc_map("852[E, ]","f852E.$append", join:" ")
+join_field("f852E","##");
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("100","f100.$append", join:" ")
+marc_map("110","f100.$append", join:" ")
+marc_map("111","f100.$append", join:" ")
+join_field("f100","##");
+marc_map("700","f700.$append", join:" ")
+marc_map("710","f700.$append", join:" ")
+marc_map("711","f700.$append", join:" ")
+join_field("f700","##");
+marc_map("300","f300.$append", join:" ")
+join_field("f300","##");
+marc_map("351","f351.$append", join:" ")
+join_field("f351","##");
+marc_map("751","f751.$append", join:" ")
+join_field("f751","##");
+marc_map("046c","f046c.$append", join:" ")
+join_field("f046c","##");
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("909","f909.$append", join:" ")
+join_field("f909","##");
+remove_field(record)

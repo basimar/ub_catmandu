@@ -1,0 +1,9 @@
+select marc_match('852[ , ]','St. Gallen KB Vadiana')
+marc_map('852[ , ]p','signatur')
+if marc_match('100e','Autor')  
+   marc_map('100abcd','autor',join:', ')
+else
+   marc_map('700abcde','autor',join:', ')   
+end
+marc_map('245ab','title',join:'. ')
+remove_field(record)

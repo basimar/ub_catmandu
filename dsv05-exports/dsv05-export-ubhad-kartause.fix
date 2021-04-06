@@ -1,0 +1,4 @@
+select marc_match('533n','Sicherheitsfilm')
+select marc_match('710a','Kartause Basel')
+marc_map('852[ , ]p','signatur')
+remove_field(record)

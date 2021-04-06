@@ -1,0 +1,15 @@
+select marc_match('852[ , ]a','St. Gallen KB Vadiana')
+marc_map('351c','leveltest')
+marc_map('909f','localcode')
+marc_map('490w','link')
+marc_map('773w','letterlink')
+if exists('leveltest') 
+   reject()
+end
+if any_equal('localcode','collect_this handschrift')
+   reject()
+end
+marc_map('852[ , ]p','signatur')
+marc_map('245a','title',join:'. ')
+marc_map('351c','level')
+remove_field(record)

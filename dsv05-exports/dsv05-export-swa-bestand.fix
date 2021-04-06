@@ -1,0 +1,15 @@
+select marc_match('852[ , ]a','Basel UB Wirtschaft')
+select marc_match('351c','Bestand')
+marc_map("245a","f245.$append", join:" ")
+join_field("f245","##");
+marc_map("690[W,1]","fw1.$append", join:" ")
+join_field("fw1","##");
+marc_map("690[W,2]","fw2.$append", join:" ")
+join_field("fw2","##");
+marc_map("690[W,3]","fw3.$append", join:" ")
+join_field("fw3","##");
+marc_map("852[ , ]","f852p.$append", join:" ")
+join_field("f852p","##");
+marc_map("909f","f909.$append", join:" ")
+join_field("f909","##");
+remove_field(record)

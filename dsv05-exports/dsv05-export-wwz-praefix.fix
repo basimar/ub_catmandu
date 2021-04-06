@@ -1,0 +1,6 @@
+select marc_match('852[ , ]a','Basel UB Wirtschaft')
+select marc_match('351[ , ]c','Bestand')
+marc_map('852[ , ]p','signatur')
+marc_map('351c','stufe')
+marc_map('245a','titel')
+remove_field(record)

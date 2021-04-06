@@ -1,0 +1,5 @@
+select marc_match('852[ , ]a','Basel UB')
+select marc_match('852[ , ]b','Handschriften')
+select marc_match('852[ , ]p','NL 360 : D:III')
+marc_map('852[ , ]p','signatur')
+remove_field(record)

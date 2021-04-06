@@ -1,0 +1,5 @@
+select marc_match('909f','bernoulli')
+marc_map(856u,link,join:' @@ ')
+join_field(link,",")
+retain(link)
+

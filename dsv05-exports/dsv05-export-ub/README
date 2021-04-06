@@ -1,0 +1,4 @@
+Diese Skripte für einen Gesamtauszug im xlsx-Format der UB-Daten in HAN wird jeden Sonntag automatisiert erstellt.
+Bitte keine Änderungen an Skripts.
+Eingetragen in crontab von Basil
+05.03.2018/bmt

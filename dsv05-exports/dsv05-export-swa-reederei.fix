@@ -1,0 +1,8 @@
+select marc_match('852[ , ]a','Basel UB Wirtschaft')
+select marc_match('852[ , ]p','CH SWA HS 505')
+select marc_match('506[ , ]a','')
+marc_map('852[ , ]p','Signatur')
+marc_map('245a','Titel')
+marc_map('355[0, ]a','Schutzfrist-Kategorien')
+marc_map('506a','Schutzfrist-Disclaimer')
+remove_field(record)

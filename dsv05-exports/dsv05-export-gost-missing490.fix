@@ -1,0 +1,13 @@
+select marc_match('852[ , ]a','Bern Gosteli-Archiv')
+marc_map('490w','490test')
+if exists('490test') 
+   reject()
+end
+marc_map('773w','773test')
+if exists('773test') 
+   reject()
+end
+marc_map('852[ , ]p','signatur')
+marc_map('245a','title',join:'. ')
+marc_map('351c','level')
+remove_field(record)

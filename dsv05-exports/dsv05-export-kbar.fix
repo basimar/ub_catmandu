@@ -1,0 +1,13 @@
+select marc_any_match('852[ , ]a','KB Appenzell Ausserrhoden')
+marc_map("245","f245.$append", join: " ")
+join_field("f245","##")
+marc_map("500","f500.$append", join: " ")
+join_field("f500","##")
+marc_map("852[ , ]","f852.$append", join: " ")
+join_field("f852","##")
+marc_map("852[E, ]","f852E.$append", join: " ")
+join_field("f852E","##")
+marc_map("852[A, ]","f852A.$append", join: " ")
+join_field("f852A","##")
+remove_field(record)
+

@@ -1,0 +1,25 @@
+select marc_match('852[ , ]a','Basel UB')
+marc_map('852[ , ]a','institution')
+marc_map('852[ , ]p','signatur')
+marc_map('351c','stufe')
+marc_map('046c','jahr_von', join:', ')
+marc_map('046e','jahr_bis', join:', ')
+marc_map('100a','person', join:', ')
+marc_map('110a','corporate', join:', ')
+marc_map('111a','congress', join:', ')
+marc_map('245ab','titel', join:', ')
+marc_map("300a","f300.$append", join:" ")
+join_field("f300","##");
+marc_map("751a","f751.$append", join:" ")
+join_field("f751","##");
+marc_map("856u","f856.$append", join:" ")
+join_field("f856","##");
+marc_map("909f","f909.$append", join:" ")
+join_field("f909","##");
+marc_map("CATac","cat.$append", join:" ")
+join_field("cat","##");
+marc_map("CATa","catsigel.$append", join:" ")
+join_field("catsigel","##");
+marc_map("CATc","catdate.$append", join:" ")
+join_field("catdate","##");
+remove_field(record)

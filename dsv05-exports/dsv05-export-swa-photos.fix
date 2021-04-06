@@ -1,0 +1,23 @@
+select marc_match('852[ , ]a','Basel UB Wirtschaft')
+if marc_match('852[  ]p','PA 600')
+   reject()
+end
+if marc_match('852[  ]p','PA 578')
+   reject()
+end
+if marc_match('852[  ]p','PA 554')
+   reject()
+end
+marc_map('906i', 90.6)
+marc_map('907i', 90.7)
+unless any_match(90.*, 'VM Foto')
+    reject()
+end
+remove_field(90.6)
+remove_field(90.7)
+marc_map('245a','245a')
+marc_map('520a','520a')
+marc_map('351c','351c')
+marc_map('906i','906i')
+marc_map('907i','907i')
+remove_field(record)

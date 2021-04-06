@@ -1,0 +1,3 @@
+select marc_match('852[ , ]a','Basel UB Wirtschaft')
+marc_map('490a','490a')
+remove_field(record)

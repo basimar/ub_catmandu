@@ -1,0 +1,10 @@
+select marc_match('852[ , ]a','Basel UB')
+select marc_match('852[ , ]b','Handschriften')
+marc_map('351c','leveltest')
+if exists('leveltest') 
+   reject()
+end
+marc_map('852[ , ]p','signatur')
+marc_map('245a','title',join:'. ')
+marc_map('351c','level')
+remove_field(record)
