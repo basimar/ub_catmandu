@@ -1,0 +1,7 @@
+marc_map('866','f866')
+if exists('f866') 
+   reject()
+end
+marc_map('OWN$a','fOWN')
+marc_map('LKR$b','fLKR')
+remove_field(record)

@@ -1,0 +1,9 @@
+catmandu convert MARC --type ALEPHSEQ to CSV --sep_char '|' --fix dsv11-ezas.fix < /opt/data/dsv11/dsv11.seq > dsv11.output 
+sort -t'|' -k2 dsv11.output > dsv11.sorted
+
+grep "\$\$1" swa-ezas-gnd-71x-1.txt > swa.710
+grep -o "\$\$1.*" swa.710 | sed 's/\$\$1//g' > swa.gnd
+sed 's/"/""/g' swa.710 | sed 's/\($\|^\)/"/g' > swa.ans
+paste -d '|' swa.ans swa.gnd > swa
+sort -t'|' -k2 swa > swa.sorted
+join -j 2 -t'|' swa.sorted dsv11.sorted > dsv11-ezas.konkordanz

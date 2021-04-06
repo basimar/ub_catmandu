@@ -1,0 +1,46 @@
+select marc_any_match('043c','XA-CH') 
+select marc_any_match('548a','^(18|19)')
+select marc_any_match('550a','(Schriftsteller|schriftsteller|autor|Autor|Romancier|Romanschriftsteller|Reiseschriftsteller|Kriminalschriftsteller|Prosaist|Exilschriftsteller|Heimatschriftsteller|Kinderbuchautor|Jugendbuchautor)')
+marc_map("079v","f079v.$append", join:" ")
+join_field("f079v","##");
+marc_map("075b","f075b.$append", join:" ")
+join_field("f075b","##");
+marc_map("043c","f043c.$append", join:" ")
+join_field("f043c","##");
+marc_map("100","f100.$append", join:" ")
+join_field("f100","##");
+marc_map("100a","f100a.$append", join:" ")
+join_field("f100a","##");
+marc_map("100b","f100b.$append", join:" ")
+join_field("f100b","##");
+marc_map("100c","f100c.$append", join:" ")
+join_field("f100c","##");
+marc_map("1001","f1001.$append", join:" ")
+join_field("f1001","##");
+marc_map("043c","f043c.$append", join:" ")
+join_field("f043c","##");
+marc_map("548","f548.$append", join:" ")
+join_field("f548","##");
+marc_map("548a4","f548a4.$append", join:" ")
+join_field("f548a4","##");
+marc_map("670a","f670a.$append", join:" ")
+join_field("f670a","##");
+marc_map("678b","f678b.$append", join:" ")
+join_field("f678b","##");
+marc_map("550","f550.$append", join:" ")
+join_field("f550","##");
+marc_map("550a","f550a.$append", join:" ")
+join_field("f550a","##");
+marc_map("5504","f5504.$append", join:" ")
+join_field("f5504","##");
+marc_map("550a4","f550a4.$append", join:" ")
+join_field("f550a4","##");
+marc_map("551","f551.$append", join:" ")
+join_field("f551","##");
+marc_map("551a","f551a.$append", join:" ")
+join_field("f551a","##");
+marc_map("5514","f5514.$append", join:" ")
+join_field("f5514","##");
+marc_map("551a4","f551a4.$append", join:" ")
+join_field("f551a4","##");
+remove_field(record)
